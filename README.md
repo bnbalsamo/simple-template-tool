@@ -2,10 +2,35 @@
 
 [![CI](https://github.com/bnbalsamo/simple-template-tool/workflows/CI/badge.svg?branch=master)](https://github.com/bnbalsamo/simple-template-tool/actions)
 [![Coverage](https://codecov.io/gh/bnbalsamo/simple-template-tool/branch/master/graph/badge.svg)](https://codecov.io/gh/bnbalsamo/simple-template-tool/)
- [![Documentation Status](https://readthedocs.org/projects/simple-template-tool/badge/?version=latest)](http://simple-template-tool.readthedocs.io/en/latest/?badge=latest) 
+ [![Documentation Status](https://readthedocs.org/projects/simple-template-tool/badge/?version=latest)](http://simple-template-tool.readthedocs.io/en/latest/?badge=latest)
 [![Updates](https://pyup.io/repos/github/bnbalsamo/simple-template-tool/shield.svg)](https://pyup.io/repos/github/bnbalsamo/simple-template-tool/) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
 A simple tool for rendering templates.
+
+Uses json files, [jinja2 templates](https://jinja.palletsprojects.com/en/2.11.x/templates/), and some python to glue it all together in order to allow simple templates to be written and rendered quickly.
+
+```bash
+$ stt --help
+Usage: stt [OPTIONS]
+
+  A simple template rendering tool.
+
+Options:
+  --info-directory DIRECTORY      The directory that contains info json files
+                                  that will be injected into the template
+                                  rendering context. Defaults to './info'
+
+  --templates-directory DIRECTORY
+                                  The directory that contains template files.
+                                  Defaults to './templates'
+
+  --output-directory DIRECTORY    The directory to write the rendered
+                                  templates to. It will be created if it
+                                  doesn't exist. Defaults to
+                                  './rendered_templates'
+
+  --help                          Show this message and exit.
+```
 
 See the full documentation at https://simple-template-tool.readthedocs.io
 

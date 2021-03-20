@@ -1,0 +1,5 @@
+Hi from {{ info["values"]["name"] }}!
+
+This is some text that won't be formatted.
+
+This will contain another value {{ info["values"]["random_value"] }}.

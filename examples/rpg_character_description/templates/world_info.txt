@@ -1,0 +1,5 @@
+Timeline:
+
+0: time started
+{{ info["dm_supplied"]["Calamity Date"] }}: {{ info["dm_supplied"]["Calamity"] }}
+{{ info["dm_supplied"]["Current Date"] }}: Present Day

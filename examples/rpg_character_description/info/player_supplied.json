@@ -1,0 +1,9 @@
+{
+  "Character Name": "Bob",
+  "Character Race": "Goblin",
+  "Character Class": "Wizard",
+  "Character Brothers": [
+    "Fred",
+    "George"
+  ]
+}
